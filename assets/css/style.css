@@ -1,0 +1,47 @@
+main, header{
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-cadastro h1{
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cadastro{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 8px;
+}
+button, .btn-pag{
+    background-color:#555;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+a{
+    color: #ffffff;
+}
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    padding: 90px;
+    align-items: center;
+    justify-content: center;
+}
